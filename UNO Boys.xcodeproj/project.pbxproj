@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37F4FD2122D9036700E45048 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F4FD2022D9036700E45048 /* AppDelegate.swift */; };
+		37F4FD2322D9036700E45048 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F4FD2222D9036700E45048 /* ViewController.swift */; };
+		37F4FD2622D9036700E45048 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37F4FD2422D9036700E45048 /* Main.storyboard */; };
+		37F4FD2822D9036900E45048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37F4FD2722D9036900E45048 /* Assets.xcassets */; };
+		37F4FD2B22D9036900E45048 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37F4FD2922D9036900E45048 /* LaunchScreen.storyboard */; };
+		37F4FD3622D9036900E45048 /* UNO_BoysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F4FD3522D9036900E45048 /* UNO_BoysTests.swift */; };
+		37F4FD4122D9036900E45048 /* UNO_BoysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F4FD4022D9036900E45048 /* UNO_BoysUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37F4FD3222D9036900E45048 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37F4FD1522D9036700E45048 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37F4FD1C22D9036700E45048;
+			remoteInfo = "UNO Boys";
+		};
+		37F4FD3D22D9036900E45048 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37F4FD1522D9036700E45048 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37F4FD1C22D9036700E45048;
+			remoteInfo = "UNO Boys";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37F4FD1D22D9036700E45048 /* UNO Boys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UNO Boys.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37F4FD2022D9036700E45048 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		37F4FD2222D9036700E45048 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		37F4FD2522D9036700E45048 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37F4FD2722D9036900E45048 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37F4FD2A22D9036900E45048 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37F4FD2C22D9036900E45048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37F4FD3122D9036900E45048 /* UNO BoysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UNO BoysTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37F4FD3522D9036900E45048 /* UNO_BoysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNO_BoysTests.swift; sourceTree = "<group>"; };
+		37F4FD3722D9036900E45048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37F4FD3C22D9036900E45048 /* UNO BoysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UNO BoysUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37F4FD4022D9036900E45048 /* UNO_BoysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNO_BoysUITests.swift; sourceTree = "<group>"; };
+		37F4FD4222D9036900E45048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37F4FD1A22D9036700E45048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37F4FD2E22D9036900E45048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37F4FD3922D9036900E45048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37F4FD1422D9036700E45048 = {
+			isa = PBXGroup;
+			children = (
+				37F4FD1F22D9036700E45048 /* UNO Boys */,
+				37F4FD3422D9036900E45048 /* UNO BoysTests */,
+				37F4FD3F22D9036900E45048 /* UNO BoysUITests */,
+				37F4FD1E22D9036700E45048 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37F4FD1E22D9036700E45048 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37F4FD1D22D9036700E45048 /* UNO Boys.app */,
+				37F4FD3122D9036900E45048 /* UNO BoysTests.xctest */,
+				37F4FD3C22D9036900E45048 /* UNO BoysUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37F4FD1F22D9036700E45048 /* UNO Boys */ = {
+			isa = PBXGroup;
+			children = (
+				37F4FD2022D9036700E45048 /* AppDelegate.swift */,
+				37F4FD2222D9036700E45048 /* ViewController.swift */,
+				37F4FD2422D9036700E45048 /* Main.storyboard */,
+				37F4FD2722D9036900E45048 /* Assets.xcassets */,
+				37F4FD2922D9036900E45048 /* LaunchScreen.storyboard */,
+				37F4FD2C22D9036900E45048 /* Info.plist */,
+			);
+			path = "UNO Boys";
+			sourceTree = "<group>";
+		};
+		37F4FD3422D9036900E45048 /* UNO BoysTests */ = {
+			isa = PBXGroup;
+			children = (
+				37F4FD3522D9036900E45048 /* UNO_BoysTests.swift */,
+				37F4FD3722D9036900E45048 /* Info.plist */,
+			);
+			path = "UNO BoysTests";
+			sourceTree = "<group>";
+		};
+		37F4FD3F22D9036900E45048 /* UNO BoysUITests */ = {
+			isa = PBXGroup;
+			children = (
+				37F4FD4022D9036900E45048 /* UNO_BoysUITests.swift */,
+				37F4FD4222D9036900E45048 /* Info.plist */,
+			);
+			path = "UNO BoysUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37F4FD1C22D9036700E45048 /* UNO Boys */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37F4FD4522D9036900E45048 /* Build configuration list for PBXNativeTarget "UNO Boys" */;
+			buildPhases = (
+				37F4FD1922D9036700E45048 /* Sources */,
+				37F4FD1A22D9036700E45048 /* Frameworks */,
+				37F4FD1B22D9036700E45048 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UNO Boys";
+			productName = "UNO Boys";
+			productReference = 37F4FD1D22D9036700E45048 /* UNO Boys.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37F4FD3022D9036900E45048 /* UNO BoysTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37F4FD4822D9036900E45048 /* Build configuration list for PBXNativeTarget "UNO BoysTests" */;
+			buildPhases = (
+				37F4FD2D22D9036900E45048 /* Sources */,
+				37F4FD2E22D9036900E45048 /* Frameworks */,
+				37F4FD2F22D9036900E45048 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37F4FD3322D9036900E45048 /* PBXTargetDependency */,
+			);
+			name = "UNO BoysTests";
+			productName = "UNO BoysTests";
+			productReference = 37F4FD3122D9036900E45048 /* UNO BoysTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		37F4FD3B22D9036900E45048 /* UNO BoysUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37F4FD4B22D9036900E45048 /* Build configuration list for PBXNativeTarget "UNO BoysUITests" */;
+			buildPhases = (
+				37F4FD3822D9036900E45048 /* Sources */,
+				37F4FD3922D9036900E45048 /* Frameworks */,
+				37F4FD3A22D9036900E45048 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37F4FD3E22D9036900E45048 /* PBXTargetDependency */,
+			);
+			name = "UNO BoysUITests";
+			productName = "UNO BoysUITests";
+			productReference = 37F4FD3C22D9036900E45048 /* UNO BoysUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37F4FD1522D9036700E45048 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "UNO Boys";
+				TargetAttributes = {
+					37F4FD1C22D9036700E45048 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					37F4FD3022D9036900E45048 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 37F4FD1C22D9036700E45048;
+					};
+					37F4FD3B22D9036900E45048 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 37F4FD1C22D9036700E45048;
+					};
+				};
+			};
+			buildConfigurationList = 37F4FD1822D9036700E45048 /* Build configuration list for PBXProject "UNO Boys" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37F4FD1422D9036700E45048;
+			productRefGroup = 37F4FD1E22D9036700E45048 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37F4FD1C22D9036700E45048 /* UNO Boys */,
+				37F4FD3022D9036900E45048 /* UNO BoysTests */,
+				37F4FD3B22D9036900E45048 /* UNO BoysUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37F4FD1B22D9036700E45048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37F4FD2B22D9036900E45048 /* LaunchScreen.storyboard in Resources */,
+				37F4FD2822D9036900E45048 /* Assets.xcassets in Resources */,
+				37F4FD2622D9036700E45048 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37F4FD2F22D9036900E45048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37F4FD3A22D9036900E45048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37F4FD1922D9036700E45048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37F4FD2322D9036700E45048 /* ViewController.swift in Sources */,
+				37F4FD2122D9036700E45048 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37F4FD2D22D9036900E45048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37F4FD3622D9036900E45048 /* UNO_BoysTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37F4FD3822D9036900E45048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37F4FD4122D9036900E45048 /* UNO_BoysUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37F4FD3322D9036900E45048 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37F4FD1C22D9036700E45048 /* UNO Boys */;
+			targetProxy = 37F4FD3222D9036900E45048 /* PBXContainerItemProxy */;
+		};
+		37F4FD3E22D9036900E45048 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37F4FD1C22D9036700E45048 /* UNO Boys */;
+			targetProxy = 37F4FD3D22D9036900E45048 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37F4FD2422D9036700E45048 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37F4FD2522D9036700E45048 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37F4FD2922D9036900E45048 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37F4FD2A22D9036900E45048 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37F4FD4322D9036900E45048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		37F4FD4422D9036900E45048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37F4FD4622D9036900E45048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GAJ2L4LZSM;
+				INFOPLIST_FILE = "UNO Boys/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UNO.UNO-Boys";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37F4FD4722D9036900E45048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GAJ2L4LZSM;
+				INFOPLIST_FILE = "UNO Boys/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UNO.UNO-Boys";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		37F4FD4922D9036900E45048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GAJ2L4LZSM;
+				INFOPLIST_FILE = "UNO BoysTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UNO.UNO-BoysTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UNO Boys.app/UNO Boys";
+			};
+			name = Debug;
+		};
+		37F4FD4A22D9036900E45048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GAJ2L4LZSM;
+				INFOPLIST_FILE = "UNO BoysTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UNO.UNO-BoysTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UNO Boys.app/UNO Boys";
+			};
+			name = Release;
+		};
+		37F4FD4C22D9036900E45048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GAJ2L4LZSM;
+				INFOPLIST_FILE = "UNO BoysUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UNO.UNO-BoysUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UNO Boys";
+			};
+			name = Debug;
+		};
+		37F4FD4D22D9036900E45048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GAJ2L4LZSM;
+				INFOPLIST_FILE = "UNO BoysUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UNO.UNO-BoysUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UNO Boys";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37F4FD1822D9036700E45048 /* Build configuration list for PBXProject "UNO Boys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37F4FD4322D9036900E45048 /* Debug */,
+				37F4FD4422D9036900E45048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37F4FD4522D9036900E45048 /* Build configuration list for PBXNativeTarget "UNO Boys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37F4FD4622D9036900E45048 /* Debug */,
+				37F4FD4722D9036900E45048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37F4FD4822D9036900E45048 /* Build configuration list for PBXNativeTarget "UNO BoysTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37F4FD4922D9036900E45048 /* Debug */,
+				37F4FD4A22D9036900E45048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37F4FD4B22D9036900E45048 /* Build configuration list for PBXNativeTarget "UNO BoysUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37F4FD4C22D9036900E45048 /* Debug */,
+				37F4FD4D22D9036900E45048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37F4FD1522D9036700E45048 /* Project object */;
+}
