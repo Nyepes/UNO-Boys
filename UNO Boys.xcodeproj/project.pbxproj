@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		37F4FD2122D9036700E45048 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F4FD2022D9036700E45048 /* AppDelegate.swift */; };
-		37F4FD2322D9036700E45048 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F4FD2222D9036700E45048 /* ViewController.swift */; };
 		37F4FD2622D9036700E45048 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37F4FD2422D9036700E45048 /* Main.storyboard */; };
 		37F4FD2822D9036900E45048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37F4FD2722D9036900E45048 /* Assets.xcassets */; };
 		37F4FD2B22D9036900E45048 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37F4FD2922D9036900E45048 /* LaunchScreen.storyboard */; };
 		37F4FD3622D9036900E45048 /* UNO_BoysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F4FD3522D9036900E45048 /* UNO_BoysTests.swift */; };
 		37F4FD4122D9036900E45048 /* UNO_BoysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F4FD4022D9036900E45048 /* UNO_BoysUITests.swift */; };
+		A342B0B222DA526C009E2F7B /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A342B0B122DA526C009E2F7B /* StartViewController.swift */; };
+		A342B0B422DA527E009E2F7B /* GeneralCategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A342B0B322DA527E009E2F7B /* GeneralCategoriesViewController.swift */; };
+		A342B0B622DA5292009E2F7B /* GeneralQuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A342B0B522DA5292009E2F7B /* GeneralQuestionsViewController.swift */; };
+		A342B0B822DA52D5009E2F7B /* ActualQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A342B0B722DA52D5009E2F7B /* ActualQuestionViewController.swift */; };
+		A342B0BA22DA52E9009E2F7B /* SpeedInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A342B0B922DA52E9009E2F7B /* SpeedInfoViewController.swift */; };
+		A342B0BC22DA52F5009E2F7B /* SpeedQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A342B0BB22DA52F5009E2F7B /* SpeedQuestionViewController.swift */; };
+		A342B0BE22DA532C009E2F7B /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = A342B0BD22DA532C009E2F7B /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,6 @@
 /* Begin PBXFileReference section */
 		37F4FD1D22D9036700E45048 /* UNO Boys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UNO Boys.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37F4FD2022D9036700E45048 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		37F4FD2222D9036700E45048 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		37F4FD2522D9036700E45048 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		37F4FD2722D9036900E45048 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37F4FD2A22D9036900E45048 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,13 @@
 		37F4FD3C22D9036900E45048 /* UNO BoysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UNO BoysUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37F4FD4022D9036900E45048 /* UNO_BoysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNO_BoysUITests.swift; sourceTree = "<group>"; };
 		37F4FD4222D9036900E45048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A342B0B122DA526C009E2F7B /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		A342B0B322DA527E009E2F7B /* GeneralCategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralCategoriesViewController.swift; sourceTree = "<group>"; };
+		A342B0B522DA5292009E2F7B /* GeneralQuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralQuestionsViewController.swift; sourceTree = "<group>"; };
+		A342B0B722DA52D5009E2F7B /* ActualQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualQuestionViewController.swift; sourceTree = "<group>"; };
+		A342B0B922DA52E9009E2F7B /* SpeedInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedInfoViewController.swift; sourceTree = "<group>"; };
+		A342B0BB22DA52F5009E2F7B /* SpeedQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedQuestionViewController.swift; sourceTree = "<group>"; };
+		A342B0BD22DA532C009E2F7B /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +109,18 @@
 		37F4FD1F22D9036700E45048 /* UNO Boys */ = {
 			isa = PBXGroup;
 			children = (
-				37F4FD2022D9036700E45048 /* AppDelegate.swift */,
-				37F4FD2222D9036700E45048 /* ViewController.swift */,
 				37F4FD2422D9036700E45048 /* Main.storyboard */,
+				A342B0B122DA526C009E2F7B /* StartViewController.swift */,
+				A342B0B322DA527E009E2F7B /* GeneralCategoriesViewController.swift */,
+				A342B0B522DA5292009E2F7B /* GeneralQuestionsViewController.swift */,
+				A342B0B722DA52D5009E2F7B /* ActualQuestionViewController.swift */,
+				A342B0B922DA52E9009E2F7B /* SpeedInfoViewController.swift */,
+				A342B0BB22DA52F5009E2F7B /* SpeedQuestionViewController.swift */,
+				37F4FD2022D9036700E45048 /* AppDelegate.swift */,
 				37F4FD2722D9036900E45048 /* Assets.xcassets */,
 				37F4FD2922D9036900E45048 /* LaunchScreen.storyboard */,
 				37F4FD2C22D9036900E45048 /* Info.plist */,
+				A342B0BD22DA532C009E2F7B /* SwiftyJSON.swift */,
 			);
 			path = "UNO Boys";
 			sourceTree = "<group>";
@@ -256,8 +274,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37F4FD2322D9036700E45048 /* ViewController.swift in Sources */,
 				37F4FD2122D9036700E45048 /* AppDelegate.swift in Sources */,
+				A342B0B422DA527E009E2F7B /* GeneralCategoriesViewController.swift in Sources */,
+				A342B0B822DA52D5009E2F7B /* ActualQuestionViewController.swift in Sources */,
+				A342B0BE22DA532C009E2F7B /* SwiftyJSON.swift in Sources */,
+				A342B0B222DA526C009E2F7B /* StartViewController.swift in Sources */,
+				A342B0BA22DA52E9009E2F7B /* SpeedInfoViewController.swift in Sources */,
+				A342B0B622DA5292009E2F7B /* GeneralQuestionsViewController.swift in Sources */,
+				A342B0BC22DA52F5009E2F7B /* SpeedQuestionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
